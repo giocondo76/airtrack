@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-@Controller
 public interface IService<T> {
 
     List<T> getAll();
